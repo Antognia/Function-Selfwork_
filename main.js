@@ -29,6 +29,30 @@ function ordineDecrescente(num) {
 
 console.log(decrescente);
 
+
+
+
+    /// Esercizio Array 2 ////
+
+    
+const numbers = [3, 5, 10, 2, 8];
+
+function calcolatore(N) {
+
+    let somma = N.reduce((acc, cur) => acc + cur, 0);
+  let media = somma / N.length;
+let valoriMinori = N.filter((valore) => valore < media);
+
+    console.log(media);
+    console.log(valoriMinori);
+    
+}
+
+calcolatore(numbers);
+
+    
+   
+
 }
 
 
