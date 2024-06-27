@@ -15,3 +15,23 @@ return paroleUnite === noSpazi;
 console.log(palindromo(frase));
 
 
+
+
+/// Esercizio Array 1 ////
+
+const numeri = [3, 7, -2, 5, 8, 1, 2, 5, 6, -4];
+
+function ordineDecrescente(num) {
+    
+    let crescente = num.sort();
+
+    let decrescente = crescente.reverse();
+
+console.log(decrescente);
+
+}
+
+
+ordineDecrescente(numeri);
+
+
