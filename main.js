@@ -3,7 +3,7 @@
 let frase = `i topi non avevano nipoti`
 
 function palindromo (stringa){
-let noSpazi = stringa.replace(/\W/g, "")  
+let noSpazi = stringa.replace(/\W/g, "").toLowerCase(); 
 let parole = noSpazi.split('');
 let contrario = parole.reverse();
 let paroleUnite = contrario.join('');
